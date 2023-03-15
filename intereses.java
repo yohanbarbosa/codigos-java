@@ -3,7 +3,7 @@ public class intereses{
 public static void main(String[] args){
     float dinero,total;
     int mes;
-    Scanner valor=new Scanner(System.in);
+    Scanner valor =new Scanner(System.in);
     do{
     System.out.println("ingrese la cantidad de dinero");
     dinero=valor.nextFloat();}while(dinero<0);
@@ -36,6 +36,5 @@ public static void main(String[] args){
         total=(float)(((dinero*6)/100)*mes)+dinero;
         System.out.println("total "+total);
     }
-
 }
 }
