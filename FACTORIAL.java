@@ -1,5 +1,5 @@
 import java.util.*;
-public class DF {
+public class FACTORIAL {
     public static void main(String[] args) {
         Scanner dato = new Scanner(System.in);
         System.out.println("ingrese el numero de pp");
