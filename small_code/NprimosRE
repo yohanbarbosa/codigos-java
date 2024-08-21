@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class NprimosRE{
+
+ void numero_primo(int numero){
+    if(numero > 0 ){
+        
+
+        numero_primo(numero -1);
+    }
+ }
+
+
+
+    public static void main(String[] args) {
+        Scanner valor = new Scanner(System.in);
+        int N = valor.nextInt();
+        numero_primo(N);
+    }
+}
