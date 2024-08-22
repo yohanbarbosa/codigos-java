@@ -11,11 +11,11 @@ public class NumberPerfect {
      */
     public static void main(String[] args) {
         long startTime = System.nanoTime();
-        int number = 6;
+        int number = 18;
         String result = validationNumber(number);
         System.out.println(result);
         long endTime = System.nanoTime()- startTime;
-        System.out.println("tiemp: " + endTime);
+        System.out.println("time: " + endTime);
     }
 
     public static String validationNumber(int num) {
